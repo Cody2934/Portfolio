@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Future extends Component {
+export default class ProjectsToCome extends Component {
   render() {
     return (
       <div>
