@@ -5,11 +5,12 @@ export default class Projects extends Component {
     return (
       <div>
         <div>
-          <ul>Projects</ul>
-          <li>Mosaic</li>
-          <li>Shadespeare</li>
-          <li>Just a recipe</li>
-          <li>Chrysalsynth</li>
+          <ul>
+            <li>Mosaic</li>
+            <li>Shadespeare</li>
+            <li>Just a recipe</li>
+            <li>Chrysalsynth</li>
+          </ul>
         </div>
       </div>
     );
