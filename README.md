@@ -1,16 +1,27 @@
 # Portfolio 
-*NAVBAR along side*
-Home
-About
-Projects
-Contact
+*NAVBAR along the left side that stays present or a progress scroll bar on the right side*
 
-*Home*
+Home - landing page
+About - 2 paragraphs
+Projects - past projects and hackathons
+Contact - contact info banner or page redirect or something
+
+
+*Head*
+codylylebrown.com
 Cody Lyle Brown
+Cody Lyle Brown Portfolio
+CLB Portfolio
 
-*About*
+*Header, always present*
+CODY LYLE BROWN <bunch of space> HOME ABOUT PROJECTS CONTACT
+can make them buttons with words or icons
+auto scroll you to the proper section
+
+*About* 
+check the time of day and have it change the intro message
 Paragraph - technical passions
-Paragraph - one technical and one personal
+Paragraph - personal hobbies like 
 
 Projects:
   Just a Recipe 
