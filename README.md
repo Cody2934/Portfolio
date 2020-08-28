@@ -1,56 +1,173 @@
 # Portfolio 
-*NAVBAR along the left side that stays present or a progress scroll bar on the right side*
-
-Home - landing page
-About - 2 paragraphs
-Projects - past projects and hackathons
-Contact - contact info banner or page redirect or something
-
-
-*Head*
+*Tab Bar uptop*
 codylylebrown.com
 Cody Lyle Brown
 Cody Lyle Brown Portfolio
 CLB Portfolio
+**Things to keep in mind**
+Mobile friendly
+Get something up, then make it fancy
+Do some teting, even if it's just snapshot
+Use Material UI
+Use Google Fonts
+Store everything locally in a public or assets folder
+Update the readme when done
+Policy and certificate
+Update and professionalize the portfolio repo
+
+***folder structure***
+public/assets
+  Stylesheets?
+    seen a lot of poeple put css docs here
+  Pics
+    card pics, professional photo, personal photo,
+  Icons
+    github, linkedin, email, phone, home, question mark
+  Fonts
+    put google fonts here
+  TechStack
+    JavaScript, react, testing
+  Hobbies
+    Outdoors, cars, beer, volunteering
+  Personal
+    Name, birthday, contact info
+
+src
+  Components
+    Header
+    NavBar
+    About
+    Project (single card)
+    Footer
+  Containers
+    Projects (all the cards)
+
+
 
 *Header, always present*
-CODY LYLE BROWN <bunch of space> HOME ABOUT PROJECTS CONTACT
-can make them buttons with words or icons
-auto scroll you to the proper section
+Always present, opacity on hover and scroll
+...
+  Title
+    Text: Cody Lyle Brown
+
+  HOME
+    House Icon
+      redirects to top of page
+  ABOUT
+    Icon
+      redirects to paragraphs/about
+  PROJECTS
+    Icon
+      redirects to projects
+  CONTACT
+    Icon
+      redirects to contact
+
 
 *About* 
-check the time of day and have it change the intro message
-Paragraph - technical passions
-Paragraph - personal hobbies like 
+Intro message
+  At the top of the section
+    good(morning, afternoon, evening) lorem ipusm
+Picture
+  centered between the technical and personal paragraph
+    on technical hover show professional pic
+    on personal hover show personal pic
+Technical 
+  mostly highlevel paragraph with a minor deep dive
+Personal
+  paragraph showcasing health, family, fitness, travel, outdoors, music, beer, cars, something
 
-Projects:
-  Just a Recipe 
-    On a Cutting Board
-      On hover have some food roll in or a knife or something.
-      On click show link to website and link to Github.
-  Shadespeare
-    On a Painting
-      On hover SHADEspeare.
-      On click show link to website and link to Github.
-  Mosaic
-    On a phone
-      Phone light up on hover.
-      On click show link to website and link to Github.
-  ChrysalSynth
-    On Piano/Keyboard
-      On hover keys light up.
-      On click show link to website and link to Github.
+*Projects/Cards*
+Carousel with a scroll bar
+Possible radio buttons showing (all, hackathons, projects)
 
-Currently learning/growing/researching/day-to-day
-  Hackathons
-    AWS
-      Took 3rd place and some pics
-    TAO
-      Honorable mention with some pics
-  Drone Project 
-      python, drone flying, rasberry pi or ardiuno, photography.
+AWS Portland Hackathon
+  Title
+    RekognizeMe
+  Picture 
+    Landing page from presentaiton
+  Hover
+    Using AWS facial rekognition we helped covid stuff
+  Click
+    Flips card
+      Paragraph about the challenge and solution
+    
+TAO Techlandia Hackathon
+  Title
+    CareWheels BLE Relay
+  Picture
+    Schamitic of relay
+  Hover
+    BLE relay sensor data stuff
+  Click
+    flips card
+      Paragraph about the challenge and solution
+
+Just a Recipe
+  Title
+    Just A Recipe
+  Picture
+    logo or cookbook
+  Hover
+    no blogs, just a picture and a recipe
+  Click
+    flips card
+      paragraph about just a recipe
+      github icon
+        links to repo
+      website icon
+        links to website
+
+Shadespeare
+  Title
+    Shadespeare
+  Picture
+    SHADEspeare
+  Hover
+    shakespeare inspired insult bot
+  Click
+    flips card
+      paragraph about shadespeare
+      github icon
+        links to repo
+      website icon
+        links to website
+
+Mosaic
+  Title
+    Mosaic
+  Picture
+    gameboard
+  Hover
+    Mobile relaxation app
+  Click
+    flips card
+      paragraph about mosaic
+      github icon
+        links to repo
+      website icon
+        links to website
+
+ChrysalSynth
+  Title
+    ChrysalSynth
+  Picture
+    piano
+  Hover
+    Music synthesizer
+  Click
+    flips card
+      paragraph about synth
+      githun icon
+        links to repo
+      website icon
+        links to website
 
 *Footer*
-Make it look like a business website
-Contact Me
-Projects
+random bs or api plug-in about your pokemon or action hero
+
+
+
+**Card Layout**
+
+
